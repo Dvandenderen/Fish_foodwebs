@@ -1,6 +1,6 @@
 
 
-setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Global model parfor")
+setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor")
 
 # load input parameters
   param <- read.csv("input_parameters.csv",header=T)
@@ -8,7 +8,7 @@ setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Glob
 
 ##### all data loaded ###########################################################
   library(sp)
-  library(rworldmap) # this pkg has waaaay better world shapefiles
+  library(rworldmap) 
   library(ggplot2)
   library(RColorBrewer)
   library(plyr)
@@ -119,7 +119,7 @@ setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Glob
   
   library(cowplot)
 
-  setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Global model parfor/Final figures/")
+  setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor/Final figures/")
   jpeg(file = "Figure-sub_inputpar.jpeg", width=8.5, height=10,units ='in', res = 500)
   
   inputfig <- ggdraw() + 

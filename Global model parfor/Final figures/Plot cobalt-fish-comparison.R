@@ -1,7 +1,7 @@
 
 
 # model comparison of zooplankton biomass and flux to predators
-  setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Global model parfor")
+  setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor")
   dataglob <- read.csv("datglob.csv",header=F)
   colnames(dataglob) <- c("BioZs","BioZl","BioBs","BioBl", "BioFf","BioMf","BioPf","BioBaP","BioDf")
 
@@ -9,7 +9,7 @@
   param <- read.csv("input_parameters.csv",header=T)
   outp <- cbind(param,dataglob)
   
-  setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Global model parfor/Final figures/")
+  setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor/Final figures/")
   jpeg(file = "Figure_cobalt_fish_comparison.jpeg", width=7, height=5.5,units ='in', res = 500)
   op <- par(mfrow = c(1,2),
             oma = c(5,4,1,1) + 0.1,

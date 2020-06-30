@@ -24,7 +24,7 @@
   bargrid@data$uni <- paste(bargrid@data$long,bargrid@data$lat, sep="_")
 
 # now load fisheries potential
-setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Global model parfor")
+setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor")
 
 datafunc1 <- read.csv("flux_in.csv",header = F)
 datafunc1 <- datafunc1[,c(2,6,12,18,24)]

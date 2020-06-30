@@ -2,7 +2,7 @@
 library(latex2exp)
 
 # load functions in r
-  setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Global model parfor")
+  setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor")
 
   datafunc1 <- read.csv("flux_in.csv",header = F)
   datafunc1 <- datafunc1[,c(2,6,12,18,24)]
@@ -21,7 +21,7 @@ library(latex2exp)
 
 ##### all data loaded ###########################################################
   library(sp)
-  library(rworldmap) # this pkg has waaaay better world shapefiles
+  library(rworldmap)
   library(ggplot2)
   library(RColorBrewer)
   library(plyr)
@@ -79,7 +79,7 @@ library(latex2exp)
                                   legend.position = "bottom")
   
   library(cowplot)
-  setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Global model parfor/Final figures/")
+  setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor/Final figures/")
   #pdf("Fish functions.pdf",width=12,height=4) 
   jpeg(file = "Fish functions.jpeg", width=10, height=4.5,units ='in', res = 500)
   

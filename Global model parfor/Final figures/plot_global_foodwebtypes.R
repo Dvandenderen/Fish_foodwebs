@@ -9,7 +9,7 @@
   library(maptools)
 
 # plot global food-web types
-  setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Global model parfor")
+  setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor")
   dataglob <- read.csv("datglob.csv",header=F)
   colnames(dataglob) <- c("BioZs","BioZl","BioBs","BioBl", "BioFf","BioMf","BioPf","BioBaP","BioDf")
   param <- read.csv("input_parameters.csv",header=T) # load input
@@ -86,7 +86,7 @@
   # get world map
   world <- fortify(spTransform(getMap(), CRS("+proj=wintri")))
   
-  setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Global model parfor/Final figures/")
+  setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor/Final figures/")
   pdf("Fish foodwebs world.pdf",width=7.5,height=5.5) 
   
   Mapnice <- ggplot() +  

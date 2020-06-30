@@ -1,5 +1,5 @@
 
-setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Global model parfor")
+setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor")
 dataglob <- read.csv("datglob.csv",header=F)
 colnames(dataglob) <- c("BioZs","BioZl","BioBs","BioBl", "BioFf","BioMf","BioPf","BioBaP","BioDf")
 
@@ -69,7 +69,7 @@ outp <- cbind(param,dataglob)
   MapBioDf <- ggplot() + geom_point(data=outp, aes(x=long_wintri, y=lat_wintri, colour=log10(BioDf)),shape=15,size=sid,na.rm=T)+
                          scale_colour_gradientn(colours= sealand,na.value = "white",limits=c(-2,2),
                                                 labels=c("-4 to -2","-1","0","1","2"),
-                         name="log10(biomass) \n (gr WW m-2)")+  ggtitle("demersal fish")
+                         name="log10(biomass) \n (g WW m-2)")+  ggtitle("demersal fish")
   MapBioDf <- MapBioDf +  geom_polygon(data = world, aes(x = long, y = lat, group = group),color="black",fill="black")
   MapBioDf <- MapBioDf +  theme(plot.background=element_blank(),
                                 panel.background=element_blank(),
@@ -84,7 +84,7 @@ outp <- cbind(param,dataglob)
                                 plot.title = element_text(hjust = 0.5)) 
 
   library(cowplot)
-  setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Global model parfor/Final figures/")
+  setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor/Final figures/")
   jpeg(file = "Figure-sub_fish_biomass.jpeg", width=7, height=6.5,units ='in', res = 500)
   
   biomassfig <- ggdraw() + 
