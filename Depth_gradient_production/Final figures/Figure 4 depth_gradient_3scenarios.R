@@ -90,7 +90,7 @@ y2 <- (tt/150)^-0.86
 y2[y2>1] <- 1
 
 plot(y2~log10(tt), ylim =c(0,1),xlim=c(1.69,3.5),yaxt="n",xaxt="n",xaxs="i",yaxs="i",type="l",lwd=2,col="white",bty="n")
-polygon(c(1,y2,0,0,1)~c(1.69,log10(tt),3.477,1.69,1.69),col="brown")
+polygon(c(1,y2,0,0,1)~c(1.69,log10(tt),3.477,1.69,1.69),col="#d3bc5f")
 
 lines(c(log10(150),log10(150)),c(0,1),lty=3)
 axis(1,c(log10(50),log10(250),log10(2000),log10(3000)),c("","","",""),cex.axis=1)
