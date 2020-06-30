@@ -5,3 +5,5 @@ Fish foodwebs presents the code used to predict the global occurence and product
 Each folder contains the full model and can be run separately. A simple run can be done by downloading the "simple run" folder. 
 
 The global model (folder global model parfor) is run in parallel to speed up the code. 
+
+https://zenodo.org/badge/276041639.svg
