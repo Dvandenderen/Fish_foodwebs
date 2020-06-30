@@ -6,4 +6,4 @@ Each folder contains the full model and can be run separately. A simple run can 
 
 The global model (folder global model parfor) is run in parallel to speed up the code. 
 
-https://zenodo.org/badge/276041639.svg
+<a href="https://zenodo.org/badge/latestdoi/276041639"><img src="https://zenodo.org/badge/276041639.svg" alt="DOI"></a>
