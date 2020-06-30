@@ -5,7 +5,7 @@ library(latex2exp)
 #### script to get matlab biomass output 
 
 library(R.matlab)
-path <- "H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Depth_gradient_production"
+path <- "C:/Users/pdvd/Online for git/Fish_foodwebs/Depth_gradient_production"
 
 #### get biomass
 pathname <- file.path(path, "depth_sixclasses.mat")
@@ -24,7 +24,7 @@ benprod <- as.numeric(databio$bRb)
 ph <- databio$param[,,1]$photic
 linesize  <- 3
 
-setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Depth_gradient_production/Final figures")
+setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Depth_gradient_production/Final figures")
 pdf("Figure_4.pdf",width=3.3,height=5.5)
 
 op <- par(mfrow = c(3,1),

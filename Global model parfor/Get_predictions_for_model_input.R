@@ -2,13 +2,13 @@
 rm(list=ls())
 
 #### script to get medium and large zooplankton energy flux to fish and detritus flux to seabed
-#### can be used as input in the fishmodel 
+#### used as input in the fishmodel 
 
 ### input = "mg C m-2 day-1"
 ### output = "g C m-2 y-1"
 
 library(R.matlab)
-path <- "H:/Werk/Global drivers BP ratio/Final_analysis_manuscript/Environmental_data_Ecoregions/Charlie data"
+path <- "H:/Werk/Global drivers BP ratio/Final_analysis_manuscript/Environmental_data_Ecoregions/Charlie data" ## this is outside the git folder
 
 #### get higher predator loss medium zooplankton 
 pathname <- file.path(path, "hploss_100_mdz_1deg_ESM26_5yr_clim_191_195.mat")
@@ -79,7 +79,7 @@ lgzbio_output <- lgzbio_output*9 # C to ww
 
 #### now get photic zone boundary, depth and temperature in upper 100 meters
 library(raster)
-setwd("H:/Werk/Global drivers BP ratio/Final_analysis_manuscript/Box model - Matcont")
+setwd("H:/Werk/Global drivers BP ratio/Final_analysis_manuscript/Box model - Matcont") # outside the github folder
 load("Zeu2.RData")
 
 r_hr <- raster(nrow=4309, ncol=2149,xmn=-179.5,xmx=179.5,ymn=-89.5,ymx=89.5)
@@ -122,7 +122,7 @@ envcond <- data.frame(long,lat,lz_prod,mz_prod,ben_prod,lz_bio,mz_bio,photic,dep
 envcondsub <- envcond[complete.cases(envcond[ , c(3:10)]),]
 
 # now combine with vertical water column
-pathdir <- c("H:/Werk/BP food web model shallow-deep/Ocean_temperature")
+pathdir <- c("H:/Werk/BP food web model shallow-deep/Ocean_temperature") # outside the github folder
 setwd(pathdir)
 degrees <- read.csv("woa18_A5B7_t00an01.csv",header=F,sep=",")
 colnames(degrees) <- degrees[2,]
@@ -147,35 +147,36 @@ envcondsub$depthWOA <- depthout
 envcondsub <- cbind(envcondsub,degrees[match(envcondsub$uni,degrees$uni),c(3:104)])
 datamatlab <- envcondsub
 
-setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/191025 fishflux/Global model/")
+setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor/")
 write.csv(datamatlab, file= "input_parameters.csv")
 
 # load output to check r.Rmax
-setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/191025 fishflux/Maximum versus realized production - temperature scaling/")
-dat_trop <- read.csv(file = "final_datprod_temp.csv",header=F)
+setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Max versus realized production/")
+dat_trop <- read.csv(file = "pel_prod_temp.csv",header=F)
 colnames(dat_trop) <- c("FF0","FF10","FF20","FF30","PF0","PF10","PF20","PF30","ZL0","ZL10","ZL20","ZL30","ZS0","ZS10","ZS20","ZS30","bRp")
 dat_trop$prodZL0   <- 1*(dat_trop$bRp - dat_trop$ZL0)
 dat_trop$prodZL10  <- 1*(dat_trop$bRp - dat_trop$ZL10)
 dat_trop$prodZL20  <- 1*(dat_trop$bRp - dat_trop$ZL20)
 dat_trop$prodZL30  <- 1*(dat_trop$bRp - dat_trop$ZL30)
 
-ww <- mean(dat_trop$prodZL30/ dat_trop$bRp)
-w  <- mean(dat_trop$prodZL20/ dat_trop$bRp)
-c  <- mean(dat_trop$prodZL10/ dat_trop$bRp)
-cc <- mean(dat_trop$prodZL0/ dat_trop$bRp)
+ww <- mean(dat_trop$prodZL30/ dat_trop$bRp) # 0.91 
+w  <- mean(dat_trop$prodZL20/ dat_trop$bRp) # 0.89
+c  <- mean(dat_trop$prodZL10/ dat_trop$bRp) # 0.85
+cc <- mean(dat_trop$prodZL0/ dat_trop$bRp)  # 0.79
 
+# use these numbers to estimate most likely RmaxL
 datamatlab$RmaxL <- 0
 datamatlab$RmaxL <- ifelse(datamatlab$Temp_C > 25, datamatlab$lz_prod/0.9,datamatlab$RmaxL)
 datamatlab$RmaxL <- ifelse((datamatlab$Temp_C > 15 & datamatlab$Temp_C <= 25), datamatlab$lz_prod/0.89,datamatlab$RmaxL)
 datamatlab$RmaxL <- ifelse((datamatlab$Temp_C > 5 & datamatlab$Temp_C <= 15), datamatlab$lz_prod/0.86,datamatlab$RmaxL)
 datamatlab$RmaxL <- ifelse(datamatlab$Temp_C <=5, datamatlab$lz_prod/0.8,datamatlab$RmaxL)
 
-setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/191025 fishflux/Global model/")
+setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor/")
 write.csv(datamatlab, file= "input_parameters.csv")
 
 datamatlab <- subset(datamatlab,!(is.na(datamatlab$depthWOA)))
 datamatlab <- subset(datamatlab,!(is.na(datamatlab$X5)))
 
-setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/191025 fishflux/Global model/")
+setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor/")
 write.csv(datamatlab, file= "input_parameters.csv")
 

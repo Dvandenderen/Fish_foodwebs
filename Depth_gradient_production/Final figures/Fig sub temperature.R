@@ -4,9 +4,9 @@ library(latex2exp)
 #### script to get matlab biomass output 
 
 library(R.matlab)
-path <- "H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Depth_gradient_production"
+path <- "C:/Users/pdvd/Online for git/Fish_foodwebs/Depth_gradient_production"
 
-setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Depth_gradient_production/Final figures/")
+setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Depth_gradient_production/Final figures/")
 pdf("Figure_S15.pdf",width=5,height=6.5)
 op <- par(mfrow = c(4,3),
           oma = c(5,4,0,0) + 0.1,

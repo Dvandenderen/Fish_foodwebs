@@ -4,9 +4,9 @@ library(latex2exp)
 
 #### script to get matlab biomass output 
 library(R.matlab)
-path <- "H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Coexistence forage fish -- predators/"
+path <- "C:/Users/pdvd/Online for git/Fish_foodwebs/Coexistence forage fish -- predators/"
 
-setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Coexistence forage fish -- predators")
+setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Coexistence forage fish -- predators")
 pdf("Coexistence_threespec_equalQ10.pdf",width=7.2,height=3)
 
 op <- par(mfrow = c(1,5),

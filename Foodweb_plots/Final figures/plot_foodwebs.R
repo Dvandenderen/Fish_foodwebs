@@ -1,7 +1,7 @@
   
 # save 7.2 x 6.5 portrait
 
-setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Foodweb_plots/Final figures/")
+setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Foodweb_plots/Final figures/")
 
 # plot on one page
 pdf("Fish foodweb plots.pdf",width=6.5,height=6) 
@@ -20,7 +20,7 @@ op <- par(mfrow = c(3,2),
   library(latex2exp)
   library(R.matlab)
 
-  path <- "H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Foodweb_plots/" 
+  path <- "C:/Users/pdvd/Online for git/Fish_foodwebs/Foodweb_plots/" 
 
  # get info
   pathname <- file.path(path, "region_1.mat")
@@ -137,7 +137,7 @@ op <- par(mfrow = c(3,2),
   
   library(latex2exp)
   library(R.matlab)
-  path <- "H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Foodweb_plots/"
+  path <- "C:/Users/pdvd/Online for git/Fish_foodwebs/Foodweb_plots/"
   
   # get info
   pathname <- file.path(path, "region_2.mat")
@@ -281,7 +281,7 @@ op <- par(mfrow = c(3,2),
   library(latex2exp)
   library(R.matlab)
   library(plotrix)
-  path <- "H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Foodweb_plots/"
+  path <- "C:/Users/pdvd/Online for git/Fish_foodwebs/Foodweb_plots/"
   
   #### food web deep temperate
   # get info
@@ -418,7 +418,7 @@ op <- par(mfrow = c(3,2),
   library(latex2exp)
   library(R.matlab)
   library(plotrix)
-  path <- "H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Foodweb_plots/"
+  path <- "C:/Users/pdvd/Online for git/Fish_foodwebs/Foodweb_plots/"
   
   #### oligo 1
   # get info
@@ -528,7 +528,7 @@ op <- par(mfrow = c(3,2),
   library(latex2exp)
   library(R.matlab)
   library(plotrix)
-  path <- "H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Foodweb_plots/"
+  path <- "C:/Users/pdvd/Online for git/Fish_foodwebs/Foodweb_plots/"
   
   #### oligo 2
   # get info

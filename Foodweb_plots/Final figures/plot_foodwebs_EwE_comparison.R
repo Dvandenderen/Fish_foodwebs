@@ -9,12 +9,12 @@
   library(plotrix)
 
 # load ecopath data
-  path <- "H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Foodweb_plots/" 
+  path <- "C:/Users/pdvd/Online for git/Fish_foodwebs/Foodweb_plots/" 
 
   source(paste(path,"Final figures/foodwebs_EwE.R",sep="/"))
 
  
-  setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Foodweb_plots/Final figures/")
+  setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Foodweb_plots/Final figures/")
   pdf("Fish foodweb EwE-Northsea.pdf",width=7.1,height=6.6) 
 
  # get info

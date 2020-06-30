@@ -23,7 +23,7 @@
   # scotland slope region bounding box: (-83.21095 -18.5,-66.81935 -3)
   # ecobase model name: 443    
 
-  setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Global model parfor/")
+  setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor/")
   
 # north sea bounding box BOX(-4.680176 51,9 62)
   lon_min <- -4.5 --360
@@ -102,5 +102,5 @@
   
   regeco <- rbind(regeco,ScotN)
 
-  setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Foodweb_plots")
+  setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Foodweb_plots")
   write.csv(regeco,"ecopathsim_area.csv")

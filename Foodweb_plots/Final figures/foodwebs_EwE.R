@@ -3,7 +3,7 @@ library(RCurl)
 library(XML)
 library(plyr)
 
-setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Foodweb_plots")
+setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Foodweb_plots")
 dat <- read.csv("Species_groups_EwE.csv",header=T,sep=";")
 
 # North Sea

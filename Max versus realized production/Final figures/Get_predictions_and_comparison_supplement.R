@@ -10,7 +10,7 @@ rm(list=ls())
    library(latex2exp)
 
 # path to data charlie
-   path <- "H:/Werk/Global drivers BP ratio/Final_analysis_manuscript/Environmental_data_Ecoregions/Charlie data"
+   path <- "H:/Werk/Global drivers BP ratio/Final_analysis_manuscript/Environmental_data_Ecoregions/Charlie data" # outside github
 
 #### get higher predator loss medium zooplankton 
    pathname <- file.path(path, "hploss_100_mdz_1deg_ESM26_5yr_clim_191_195.mat")
@@ -57,9 +57,9 @@ rm(list=ls())
 
 # make plot and compare 
    # path to matlab output coexistence epipelagic and large pelagic predator
-   pathmat <- "H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Max versus realized production/"
+   pathmat <- "C:/Users/pdvd/Online for git/Fish_foodwebs/Max versus realized production/"
    
-   setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Max versus realized production/Final figures/")
+   setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Max versus realized production/Final figures/")
    
    jpeg(file = "Figure_cobalt_fish_predation.jpeg", width=7, height=5.5,units ='in', res = 500)
 
@@ -106,8 +106,8 @@ rm(list=ls())
 
    legend(14,620,c("(b)"),  bty='n' )
 
-   title(ylab = TeX("Loss to predators (gr WW $m^{-2}$ $y^{-1}$)"),
-         xlab = TeX("Biomass gr WW $m^{-2}$"),
+   title(ylab = TeX("Loss to predators (g WW $m^{-2}$ $y^{-1}$)"),
+         xlab = TeX("Biomass g WW $m^{-2}$"),
          outer = TRUE, line = 2)
    par(op)
    
@@ -128,7 +128,7 @@ rm(list=ls())
    fcdet_output <- fcdet_output*9 ## carbon to ww
 
 ### load depth data Charlie
-   path <- "H:/Werk/Global drivers BP ratio/Final_analysis_manuscript/Environmental_data_Ecoregions/Charlie data"
+   path <- "H:/Werk/Global drivers BP ratio/Final_analysis_manuscript/Environmental_data_Ecoregions/Charlie data" # outside github
    pathname <- file.path(path, "depth_1deg_ESM26_lat_lon.mat")
    depth <- readMat(pathname)
    depth_mat <- depth$depth
@@ -172,8 +172,8 @@ rm(list=ls())
           lty=c(1,NA),pch=c(NA,1), lwd=c(2,2), box.lty=0 , 
           inset=.1,y.intersp=1.5, x.intersp=0.4)
 
-   title(ylab = TeX("Detrital flux to the seabed (gr WW $m^{-2}$ $y^{-1}$)"),
-         xlab = TeX("Loss to predators (gr WW $m^{-2}$ $y^{-1}$)"),
+   title(ylab = TeX("Detrital flux to the seabed (g WW $m^{-2}$ $y^{-1}$)"),
+         xlab = TeX("Loss to predators (g WW $m^{-2}$ $y^{-1}$)"),
          outer = TRUE, line = 2)
    par(op)
    dev.off()

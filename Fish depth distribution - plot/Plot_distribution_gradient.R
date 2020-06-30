@@ -40,7 +40,7 @@
     # save 5 x  5.5 inch
     ## plot during the day
     
-  setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Fish depth distribution - plot/")
+  setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Fish depth distribution - plot/")
       
   # plot
   pdf("Day distribution.pdf",width=5,height=5.5)   

@@ -2,11 +2,11 @@
 rm(list=ls())
 library(latex2exp)
 
-path <- "H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Depth_gradient_production"
+path <- "C:/Users/pdvd/Online for git/Fish_foodwebs/Depth_gradient_production"
 
 library(R.matlab)
 
-setwd("H:/Werk/BP food web model shallow-deep/Matlab Models/200402 fishflux/Depth_gradient_production/Final figures")
+setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Depth_gradient_production/Final figures")
 pdf("Figure_S22.pdf",width=5,height=4)
 
 op <- par(mfrow = c(2,3),
