@@ -60,7 +60,7 @@ setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor")
   
   Lzoop <- ggplot() +  geom_point(data=outp, aes(x=long_wintri, y=lat_wintri, colour=log10(RmaxL)),shape=15,size=sid)
   Lzoop <-  Lzoop +  scale_colour_gradientn (colours= sealand, na.value = "white", 
-                                             labs(fill='log10(max.large zoop. prod.)\n    (gr WW m-2 y-1)'))
+                                             labs(fill='log10(max.large zoop. prod.)\n    (g WW m-2 y-1)'))
   Lzoop <- Lzoop +  geom_polygon(data = world, aes(x = long, y = lat, group = group),color="#f0f0f0",fill="#f0f0f0")
   Lzoop <- Lzoop + theme(plot.background=element_blank(),
                        panel.background=element_blank(),
@@ -74,7 +74,7 @@ setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor")
   
   Szoop <- ggplot() +  geom_point(data=outp, aes(x=long_wintri, y=lat_wintri, colour=log10(mz_prod)),shape=15,size=sid)
   Szoop <-  Szoop +  scale_colour_gradientn (colours= sealand, na.value = "white", 
-                                             labs(fill='log10(max. small zoop. prod.)\n    (gr WW m-2 y-1)'))
+                                             labs(fill='log10(max. small zoop. prod.)\n    (g WW m-2 y-1)'))
   Szoop <- Szoop +  geom_polygon(data = world, aes(x = long, y = lat, group = group),color="#f0f0f0",fill="#f0f0f0")
   Szoop <- Szoop + theme(plot.background=element_blank(),
                          panel.background=element_blank(),
@@ -90,7 +90,7 @@ setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor")
   
   Benth <- ggplot() +  geom_point(data=outp, aes(x=long_wintri, y=lat_wintri, colour=log10(ben_prod)),shape=15,size=sid)
   Benth <-  Benth +  scale_colour_gradientn (colours= sealand, na.value = "white", 
-                                             labs(fill='log10(max. benthic prod.)\n     (gr WW m-2 y-1)'))
+                                             labs(fill='log10(max. benthic prod.)\n     (g WW m-2 y-1)'))
   Benth <- Benth +  geom_polygon(data = world, aes(x = long, y = lat, group = group),color="#f0f0f0",fill="#f0f0f0")
   Benth <- Benth + theme(plot.background=element_blank(),
                          panel.background=element_blank(),

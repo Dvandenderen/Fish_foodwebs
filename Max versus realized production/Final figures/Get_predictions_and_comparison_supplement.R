@@ -67,7 +67,7 @@ rm(list=ls())
              oma = c(5,4,0,0) + 0.1,
              mar = c(1,1,1,1) + 0.1)
    
-   plot(mdz_output~mdz_biomass,xlab=TeX("Biomass gr $m^{-2}$"), ylab=TeX("Loss to predators (gr WW $m^{-2}$ $y^{-1}$)"),
+   plot(mdz_output~mdz_biomass,xlab=TeX("Biomass g $m^{-2}$"), ylab=TeX("Loss to predators (gr WW $m^{-2}$ $y^{-1}$)"),
         main="small zooplankton",las=1,ylim=c(0,600),xlim=c(0,18), col="grey")
    
    legend(0,620, legend=c(TeX("F mod. $0^{o}$C"), TeX("F mod. $10^{o}$C"), TeX("F mod. $20^{o}$C"), TeX("F mod. $30^{o}$C"),"COBALT output"),
@@ -94,7 +94,7 @@ rm(list=ls())
    lines(dat_trop$prodZS20~dat_trop$ZS20, col="orange",pch=16,lwd=3,lty=3)
    lines(dat_trop$prodZS30~dat_trop$ZS30, col="red",pch=16,lwd=3,lty=4)
 
-   plot(lgz_output~lgz_biomass,xlab=TeX("Biomass gr $m^{-2}$"), ylab="",
+   plot(lgz_output~lgz_biomass,xlab=TeX("Biomass g $m^{-2}$"), ylab="",
         main="large zooplankton",las=1,ylim=c(0,600),xlim=c(0,18),yaxt="n", col="grey")
    lines(dat_trop$prodZL0~dat_trop$ZL0, col="blue",pch=16,lwd=3,lty=2)
    lines(dat_trop$prodZL10~dat_trop$ZL10, col="black",pch=16,lwd=3,lty=1)

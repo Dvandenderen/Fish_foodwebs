@@ -114,7 +114,7 @@ lines(dem[,nb]~depth,type="l",lwd=linesize, col="black")
 axis(1,c(log10(50),log10(250),log10(2000)),c("50","250","2000"),cex.axis=1.2)
 
 title(xlab = "Seafloor depth (m)",
-      ylab = TeX("Biomass gr WW $m^{-2}$"),
+      ylab = TeX("Biomass g WW $m^{-2}$"),
       outer = TRUE, line = 2,cex.lab=1.5)
 par(op)
 

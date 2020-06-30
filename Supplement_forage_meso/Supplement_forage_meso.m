@@ -157,7 +157,7 @@ colorbar('off')
 caxis([0 8])
 hold off
 c = colorbar;
-c.Label.String = 'Biomass (gr WW m-2)';
+c.Label.String = 'Biomass (g WW m-2)';
 
 SP2H = subplot(3,2,2);
 imagesc(BioMf)
@@ -225,7 +225,7 @@ YLabel3H = get(SP3H,'YLabel');
 set(YLabel3H,'String','Scalar of visual predation (sc)');
 set(YLabel3H,'Position',[-.4 5 0]);
 XLabel5H = get(SP5H,'XLabel');
-set(XLabel5H,'String','Max. zooplankton prod. (gr WW m-2 y-1)');
+set(XLabel5H,'String','Max. zooplankton prod. (g WW m-2 y-1)');
 set(XLabel5H,'Position',[7 13 0]);
 
 
