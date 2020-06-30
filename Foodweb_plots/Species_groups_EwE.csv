@@ -1,0 +1,123 @@
+study;animals;Grouping;Tax.group;Asymp.size
+457;Seabirds;Birds;Birds;NA
+457;"Squid &amp; cuttlefish";Cephalopods;Cephalopods;NA
+457;Juvenile rays;Demersal;Elasmobranchs;NA
+457;Skate + cuckoo ray;Demersal;Elasmobranchs;NA
+457;Spurdog;Demersal;Elasmobranchs;NA
+457;Large piscivorous sharks;Demersal;Elasmobranchs;NA
+457;Juvenile sharks;Demersal;Elasmobranchs;NA
+457;Small sharks;Demersal;Elasmobranchs;NA
+457;Starry ray + others;Demersal;Elasmobranchs;NA
+457;"Thornback &amp; Spotted ray";Demersal;Elasmobranchs;NA
+457;Baleen whales;Mammal;Mammal;NA
+457;Seals;Mammal;Mammal;NA
+457;Toothed whales;Mammal;Mammal;NA
+457;Detritus - DOM -water column;NA;NA;NA
+457;Detritus - POM - sediment;NA;NA;NA
+457;Blue whiting;Demersal;Teleost;NA
+457;Catfish (Wolf-fish);Demersal;Teleost;NA
+457;Cod (adult);Demersal;Teleost;NA
+457;Dab;Demersal;Teleost;NA
+457;Dragonets;Demersal;Teleost;NA
+457;Flounder;Demersal;Teleost;NA
+457;Gurnards;Demersal;Teleost;NA
+457;Haddock (adult);Demersal;Teleost;NA
+457;Hake;Demersal;Teleost;NA
+457;Halibut;Demersal;Teleost;NA
+457;Juvenile Cod(0-2, 0-40cm);Demersal;Teleost;NA
+457;Juvenile Haddock (0-1, 0-20cm);Demersal;Teleost;NA
+457;Juvenile Saithe (0-3, 0-40cm);Demersal;Teleost;NA
+457;Juvenile Whiting (0-1, 0-20cm);Demersal;Teleost;NA
+457;Large demersal fish;Demersal;Teleost;NA
+457;Lemon sole;Demersal;Teleost;NA
+457;Long-rough dab;Demersal;Teleost;NA
+457;Megrim;Demersal;Teleost;NA
+457;Monkfish;Demersal;Teleost;NA
+457;Norway pout;Demersal;Teleost;NA
+457;Other gadoids (large);Demersal;Teleost;NA
+457;Other gadoids (small);Demersal;Teleost;NA
+457;Plaice;Demersal;Teleost;NA
+457;Saithe (adult);Demersal;Teleost;NA
+457;Sandeels;Pelagic;Teleost;Small
+457;Small demersal fish;Demersal;Teleost;NA
+457;Sole;Demersal;Teleost;NA
+457;Turbot and brill;Demersal;Teleost;NA
+457;Whiting (adult);Demersal;Teleost;NA
+457;Witch;Demersal;Teleost;NA
+457;Herring (adult);Pelagic;Teleost;Small
+457;Herring (juvenile 0, 1);Pelagic;Teleost;Small
+457;Horse mackerel;Pelagic;Teleost;Medium
+457;Mackerel;Pelagic;Teleost;Medium
+457;Miscellaneous filterfeeding pelagic fish;Pelagic;Teleost;Small
+457;Sprat;Pelagic;Teleost;Small
+457;Benthic microflora (incl. Bacteria, protozoa));Benthos;NA;NA
+457;Epifaunal macrobenthos (mobile grazers);Benthos;NA;NA
+457;Infaunal macrobenthos;Benthos;NA;NA
+457;Large crabs;Benthos;NA;NA
+457;Meiofauna;Benthos;NA;NA
+457;Nephrops;Benthos;NA;NA
+457;Sessile epifauna;Benthos;NA;NA
+457;Shrimp;Benthos;NA;NA
+457;Small infauna (polychaetes);Benthos;NA;NA
+457;Small mobile epifauna (swarming crustaceans);Benthos;NA;NA
+457;Phytoplankton;NA;NA;NA
+457;Planktonic microflora (incl. Bacteria, protozoa);NA;NA;NA
+457;Discards;NA;NA;NA
+457;Fish larvae;Pelagic;NA;Small
+457;Carnivorous zooplankton;Zooplankton;NA;NA
+457;Gelatinous zooplankton;Zooplankton;NA;NA
+457;"Herbivorous &amp; Omnivorous zooplankton (copepods)";Zooplankton;NA;NA
+658;Benthic prod.;Benthos;NA;NA
+658;Makrobenthos;Benthos;NA;NA
+658;Meiobenthos;Benthos;NA;NA
+658;Hake;Demersal;Teleost;NA
+658;Other demersals;Demersal;Teleost;NA
+658;Detritus;NA;NA;NA
+658;Anchoveta;Pelagic;Teleost;Small
+658;Bonito;Pelagic;Teleost;Large
+658;Horse mackerel;Pelagic;Teleost;Medium
+658;Mackerel;Pelagic;Teleost;Medium
+658;Other pelagics;Pelagic;Teleost;Unknown
+658;Sardine;Pelagic;Teleost;Small
+658;Phytoplankton;NA;NA;NA
+658;Booby;Birds;Birds;NA
+658;Cormorant;Birds;Birds;NA
+658;Pelican;Birds;Birds;NA
+658;Fur seal;Mammal;Mammal;NA
+658;Other mammals;Mammal;Mammal;NA
+658;Sea lion;Mammal;Mammal;NA
+658;Zooplankton;Zooplankton;NA;NA
+443;Cephalopods;Cephalopods;Cephalopodes;NA
+443;Skates and rays;Demersal;Elasmobranchs;NA
+443;Chimeras;Unknown;Elasmobranchs;NA
+443;Deep sharks;Unknown;Elasmobranchs;NA
+443;Intermediate sharks;Unknown;Elasmobranchs;NA
+443;Shallow sharks;Unknown;Elasmobranchs;NA
+443;Cetaceans;Unknown;Mammal;NA
+443;Detritus;NA;NA;NA
+443;Bairds smoothhead;Demersal;Teleost;NA
+443;Coryphanoides L;Demersal;Teleost;NA
+443;Coryphanoides S;Demersal;Teleost;NA
+443;Orange roughy;Midwater;Teleost;Medium
+443;Black scabbard fish;Demersal;Teleost;NA
+443;Blue ling;Demersal;Teleost;NA
+443;Blue whiting;Demersal;Teleost;NA
+443;Bulls eye black cardinalfish;Demersal;Teleost;NA
+443;Greater forkbeard;Demersal;Teleost;NA
+443;Kaups arrowtooth eel;Demersal;Teleost;NA
+443;Large demersals;Demersal;Teleost;NA
+443;Ling;Demersal;Teleost;NA
+443;Megrim L. whiffiagonis;Demersal;Teleost;NA
+443;Monkfish;Demersal;Teleost;NA
+443;Mesopelagic fish;Midwater;Teleost;Small
+443;Benthic teleosts;Demersal;NA;NA
+443;Benthopelagic fish;Demersal;NA;NA
+443;Echinoderms;Benthos;NA;NA
+443;Other benthic inverts;Benthos;NA;NA
+443;Polychaetes;Benthos;NA;NA
+443;Prawns and shrimp;Benthos;NA;NA
+443;Phytoplankton;NA;NA;NA
+443;Argentine;Midwater;NA;NA
+443;Gelatinous plankton;Zooplankton;NA;NA
+443;Large zooplankton;Zooplankton;NA;NA
+443;Small zooplankton;Zooplankton;NA;NA
