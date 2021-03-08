@@ -279,8 +279,8 @@
        col=colBent,xaxt="n",yaxt="n",xlab="",ylab="",bty="n")
   points(2,1,cex = ecop_cex[2],pch=16,col=colDem)
   points(2,3,cex = ecop_cex[3],pch=16,col=colPel)
-  points(1,3,cex = ecop_cex[4],pch=16,col=colZoop)  
-  points(2,2,cex = ecop_cex[5],pch=16,col=colMid)
+  points(1,3,cex = ecop_cex[5],pch=16,col=colZoop)  
+  points(2,2,cex = ecop_cex[4],pch=16,col=colMid)
 
   # lines(c(1,2),c(3,3),lwd=ecop_cex[6],col=colZoop)
   # lines(c(1,2),c(1,3),lwd=ecop_cex[7],col=colBent)
@@ -303,15 +303,15 @@
   points(1,1,cex = ecop_cex[1],pch=16,col=colBent)
   points(2,1,cex = ecop_cex[2],pch=16,col=colDem)
   #points(2,3,cex = ecop_cex[3],pch=16,col=colPel)
-  points(1,3,cex = ecop_cex[4],pch=16,col=colZoop) 
-  points(2,2,cex = ecop_cex[5],pch=16,col=colMid) 
+  points(1,3,cex = ecop_cex[5],pch=16,col=colZoop) 
+  points(2,2,cex = ecop_cex[4],pch=16,col=colMid) 
   
   # now add model
   points(4,1,cex = mod_cex[1],pch=16,col=colBent)
   points(5,1,cex = mod_cex[2],pch=16,col=colDem)
   points(5,3,cex = mod_cex[3],pch=16,col=colPel)
-  points(4,3,cex = mod_cex[4],pch=16,col=colZoop)  
-  points(5,2,cex = mod_cex[5],pch=16,col=colMid)
+  points(4,3,cex = mod_cex[5],pch=16,col=colZoop)  
+  points(5,2,cex = mod_cex[4],pch=16,col=colMid)
   
   lines(c(4,5),c(3,3),lwd=mod_cex[6],col=colZoop)
   #lines(c(4,5),c(1,3),lwd=mod_cex[7],col=colBent)
@@ -334,8 +334,8 @@
   points(4,1,cex = mod_cex[1],pch=16,col=colBent)
   points(5,1,cex = mod_cex[2],pch=16,col=colDem)
   points(5,3,cex = mod_cex[3],pch=16,col=colPel)
-  points(4,3,cex = mod_cex[4],pch=16,col=colZoop) 
-  points(5,2,cex = mod_cex[5],pch=16,col=colMid) 
+  points(4,3,cex = mod_cex[5],pch=16,col=colZoop) 
+  points(5,2,cex = mod_cex[4],pch=16,col=colMid) 
   
   text(2.7,3.5,"Scotland (slope)",cex=2.5)
   dev.off()

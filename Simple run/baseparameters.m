@@ -69,7 +69,7 @@ param.B0 = 0*param.ixFish+.01;
 %
 % Habitat and interactions
 %
-param.bottom = 500; % depth in meter
+param.bottom = 100; % depth in meter
 param.photic = 150;
 param.mesop = 250;
 param.visual = 1.5; % scalar; >1 visual predation primarily during the day, = 1 equal day and night

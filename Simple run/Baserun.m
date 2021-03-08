@@ -1,6 +1,7 @@
 
 %%% simple run with parameters as specified in baseparameters
 baseparameters
+param.F(end) = 0.5;
 % Default initial conditions:
 param.y0 = [0.1*param.K 0.01*param.B0];
 if(param.bottom <= param.mesop)

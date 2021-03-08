@@ -943,16 +943,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1680"
-     inkscape:window-height="987"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
      id="namedview4"
      showgrid="false"
      showguides="true"
-     inkscape:zoom="0.79903066"
-     inkscape:cx="708.97357"
-     inkscape:cy="420.75457"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
+     inkscape:zoom="0.565"
+     inkscape:cx="1176.4336"
+     inkscape:cy="366.90652"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
      inkscape:current-layer="g1796"
      fit-margin-top="0"
@@ -12787,6 +12787,19 @@
          x="973.89087"
          y="-313.72464"
          style="stroke-width:0.75" /></text>
+    <text
+       y="-429.28592"
+       x="565.04547"
+       style="font-variant:normal;font-weight:normal;font-size:7.99999952px;font-family:Helvetica;-inkscape-font-specification:Helvetica;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99999994"
+       id="text1816-2-2-4"
+       transform="scale(1,-1)">
+      <tspan
+         style="stroke-width:0.99999994"
+         x="565.04547 569.71747"
+         y="-429.28592"
+         sodipodi:role="line"
+         id="tspan1814-0-1-3">−4</tspan>
+    </text>
   </g>
   <g
      inkscape:groupmode="layer"
