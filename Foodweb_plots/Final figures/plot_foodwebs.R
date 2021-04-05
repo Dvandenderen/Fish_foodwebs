@@ -4,15 +4,15 @@
 setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Foodweb_plots/Final figures/")
 
 # plot on one page
-pdf("Fish foodweb plots.pdf",width=6.5,height=6) 
+#pdf("Fish foodweb plots.pdf",width=6.5,height=6) 
 
-op <- par(mfrow = c(3,2),
-          oma = c(5,4,0,0) + 0.1,
-          mar = c(1,3.5,1.5,1) + 0.1)
+#op <- par(mfrow = c(3,2),
+#          oma = c(5,4,0,0) + 0.1,
+#          mar = c(1,3.5,1.5,1) + 0.1)
 
-# inkscape unable to load circle size properly with par --> redo 
+# inkscape unable to load circle size properly use useDingbats = FALSE 
 
-#pdf("Fish foodweb plots_sep.pdf",width=5,height=4) 
+pdf("Fish foodweb plots_sep.pdf",width=5,height=4,useDingbats = FALSE) 
 
 ############figure A food web shallow temperate ######################
   rm(list=ls())

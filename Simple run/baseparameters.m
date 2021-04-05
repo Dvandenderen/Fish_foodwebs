@@ -12,7 +12,7 @@ param.K =  [5  5  5  0];  % g ww/m2
 %
 % stages
 %   
-param.nstage = 6; % number of stages predator use 3, 6, 9, etc (prey = 2/3)
+param.nstage = 3; % number of stages predator use 3, 6, 9, etc (prey = 2/3)
 param.nsize  = param.nstage + 1; % 
 param.sfish = 0.001; % smallest size fish (all fish)
 param.lfish = 125000; % largest size fish (only predator)
@@ -69,7 +69,7 @@ param.B0 = 0*param.ixFish+.01;
 %
 % Habitat and interactions
 %
-param.bottom = 100; % depth in meter
+param.bottom = 1500; % depth in meter
 param.photic = 150;
 param.mesop = 250;
 param.visual = 1.5; % scalar; >1 visual predation primarily during the day, = 1 equal day and night
