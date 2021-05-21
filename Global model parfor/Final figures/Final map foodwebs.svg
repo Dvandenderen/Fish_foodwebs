@@ -12224,7 +12224,9 @@
                id="tspan9875"
                x="290.45538"
                y="463.57431"
-               style="font-size:15.21245384px;stroke-width:1.03721273">Reference biomass (g WW)</tspan></text>
+               style="font-size:15.21245384px;stroke-width:1.03721273">Reference biomass (g WW m<tspan
+   style="font-size:65%;baseline-shift:super"
+   id="tspan2874">-2</tspan>)</tspan></text>
         </g>
       </g>
       <g

@@ -55,7 +55,7 @@
     lines(meso_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
          yaxt="n",xlab = "",ylab = "",xaxs="i")
@@ -65,7 +65,7 @@
     lines(meso_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
          yaxt="n",xlab = "",ylab = "",xaxs="i")
@@ -74,7 +74,7 @@
     lines(bot_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     # epipelagic /large pelagic
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
@@ -84,7 +84,7 @@
     lines(surf_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
          yaxt="n",xlab = "",ylab = "",xaxs="i")
@@ -93,7 +93,7 @@
     lines(surf_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
          yaxt="n",xlab = "",ylab = "",xaxs="i")
@@ -103,7 +103,7 @@
     lines(meso_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     # mesopelagic/midwater
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
@@ -112,7 +112,7 @@
     lines(meso_dp~bottom_dp,col=colb, lwd=size)
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
          yaxt="n",xlab = "",ylab = "",xaxs="i")
@@ -120,7 +120,7 @@
     lines(meso_dp~bottom_dp,col=colb, lwd=size)
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
          yaxt="n",xlab = "",ylab = "",xaxs="i")
@@ -128,7 +128,7 @@
     lines(meso_dp~bottom_dp,col=colb, lwd=size)
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     # demersal
     plot(0,  col="white", ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
@@ -138,7 +138,7 @@
     lines(surf_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     plot(0,  col="white", ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
          yaxt="n",xlab = "",ylab = "",xaxs="i")
@@ -147,7 +147,7 @@
     lines(bot_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     plot(0,  col="white", ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
          yaxt="n",xlab = "",ylab = "",xaxs="i")
@@ -177,7 +177,7 @@
     lines(surf_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     # zoop L
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
@@ -187,7 +187,7 @@
     lines(surf_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     #benth 
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
@@ -197,7 +197,7 @@
     lines(bot_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     # pelagics
     plot(0,  col="white", ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
@@ -207,7 +207,7 @@
     lines(surf_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
          yaxt="n",xlab = "",ylab = "",xaxs="i")
@@ -216,7 +216,7 @@
     lines(surf_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
          yaxt="n",xlab = "",ylab = "",xaxs="i")
@@ -225,7 +225,7 @@
     lines(surf_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     # mesopelagics/mid-water
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
@@ -234,7 +234,7 @@
     lines(surf_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
          yaxt="n",xlab = "",ylab = "",xaxs="i")
@@ -242,7 +242,7 @@
     lines(surf_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
          yaxt="n",xlab = "",ylab = "",xaxs="i")
@@ -250,7 +250,7 @@
     lines(meso_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
          yaxt="n",xlab = "",ylab = "",xaxs="i")
@@ -259,7 +259,7 @@
     lines(surf_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     plot(0,  col="white", ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
          yaxt="n",xlab = "",ylab = "",xaxs="i")
@@ -268,7 +268,7 @@
     lines(bot_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     plot(0, col="white",  ylim=c(-3000,0),xlim=c(2,3.5),xaxt="n", 
          yaxt="n",xlab = "",ylab = "",xaxs="i")
@@ -278,6 +278,6 @@
     lines(bot_dp~bottom_dp,lwd=size,col="blue")
     box()
     axis(1,las=1, c(2,2.4,3,3.5),c("","","",""))
-    axis(2,las=1, c(0),c(""))
+    axis(2,las=1, c(-3000,-1500,0),c("","",""))
     
     dev.off()

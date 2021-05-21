@@ -80,8 +80,8 @@ library(latex2exp)
   
   library(cowplot)
   setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Global model parfor/Final figures/")
-  #pdf("Fish functions.pdf",width=12,height=4) 
-  jpeg(file = "Fish functions.jpeg", width=10, height=4.5,units ='in', res = 500)
+  pdf("Fish functions.pdf",width=10,height=4.5) 
+  #jpeg(file = "Fish functions.jpeg", width=10, height=4.5,units ='in', res = 500)
   
   
   functions <- ggdraw() + 

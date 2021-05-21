@@ -9,8 +9,8 @@ rm(list=ls())
    library(R.matlab)
    library(latex2exp)
 
-# path to data charlie
-   path <- "H:/Werk/Global drivers BP ratio/Final_analysis_manuscript/Environmental_data_Ecoregions/Charlie data" # outside github
+# path to data charlie, in Nat Eco Evo paper
+   path <- "C:/Users/pdvd/Dropbox/Werk/Archief/2018 Nat Eco Evo/Final_analysis_manuscript/Environmental_data_Ecoregions/Charlie data" # outside github
 
 #### get higher predator loss medium zooplankton 
    pathname <- file.path(path, "hploss_100_mdz_1deg_ESM26_5yr_clim_191_195.mat")
@@ -61,7 +61,7 @@ rm(list=ls())
    
    setwd("C:/Users/pdvd/Online for git/Fish_foodwebs/Max versus realized production/Final figures/")
    
-   jpeg(file = "Figure_cobalt_fish_predation.jpeg", width=7, height=5.5,units ='in', res = 500)
+   pdf(file = "Figure_cobalt_fish_predation.pdf", width=7, height=5.5,units ='in', res = 500)
 
    op <- par(mfrow = c(1,2),
              oma = c(5,4,0,0) + 0.1,
@@ -146,7 +146,7 @@ rm(list=ls())
    Lprod <- as.vector(t(lgz_shal))
    
    # plot detritus flux
-   jpeg(file = "Figure sub_detritus_flux.jpeg", width=5, height=4.5,units ='in', res = 500)
+   pdf(file = "Figure sub_detritus_flux.pdf", width=5, height=4.5,units ='in', res = 500)
    
    op <- par(mfrow = c(1,1),
              oma = c(5,4,0,0) + 0.1,
