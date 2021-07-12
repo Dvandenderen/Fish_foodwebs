@@ -1,6 +1,7 @@
 # Fish_foodwebs 
 
-Fish foodwebs presents the code used to predict the global occurence and productivity of different fish guilds in a food-web context.
+Fish foodwebs presents the code used to predict the global occurence and productivity of different fish guilds in a food-web context using the fish traits of
+maximum body weight and vertical habitat strategy (FEISTY-VerticalTrait).
 
 Each folder contains the full model and can be run separately. A simple run can be done by downloading the "simple run" folder. 
 
