@@ -12,7 +12,7 @@ param.K =  [5  5  5  0];  % g ww/m2
 %
 % stages
 %   
-param.nstage = 3; % number of stages predator use 3, 6, 9, etc (prey = 2/3)
+param.nstage = 6; % number of stages predator use 3, 6, 9, etc (prey = 2/3)
 param.nsize  = param.nstage + 1; % 
 param.sfish = 0.001; % smallest size fish (all fish)
 param.lfish = 125000; % largest size fish (only predator)
@@ -61,15 +61,15 @@ param.sigma = 1.3;
 %
 param.B0 = 0*param.ixFish+.01;
 %param.B0(param.ix1(1)-4:param.ix2(1)-4)=0; %put small pelagics to zero
-%param.B0(param.ix1(2)-4:param.ix2(2)-4)=0; %put small mesopelagics to zero
-%param.B0(param.ix1(3)-4:param.ix2(3)-4)=0; %put large pelagics to zero
-%param.B0(param.ix1(4)-4:param.ix2(4)-4)=0; %put bathypelagics to zero
+param.B0(param.ix1(2)-4:param.ix2(2)-4)=0; %put small mesopelagics to zero
+param.B0(param.ix1(3)-4:param.ix2(3)-4)=0; %put large pelagics to zero
+param.B0(param.ix1(4)-4:param.ix2(4)-4)=0; %put bathypelagics to zero
 %param.B0(param.ix1(5)-4:param.ix2(5)-4)=0; %put large demersals to zero
 
 %
 % Habitat and interactions
 %
-param.bottom = 1500; % depth in meter
+param.bottom = 100; % depth in meter
 param.photic = 150;
 param.mesop = 250;
 param.visual = 1.5; % scalar; >1 visual predation primarily during the day, = 1 equal day and night
@@ -80,7 +80,7 @@ param.visual = 1.5; % scalar; >1 visual predation primarily during the day, = 1 
 %
 param.Q10 = 1.88;
 param.Q10m =  1.88;
-param.region = 4; % 1=tropical, 2=temperate, 3=boreal, 4 = no temp scaling
+param.region = 2; % 1=tropical, 2=temperate, 3=boreal, 4 = no temp scaling
 [param.scTemp, param.scTempm] = calctemperature(param);
 
 %
